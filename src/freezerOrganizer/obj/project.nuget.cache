@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C+TdHkf104FDpeeUmsEFCCLtDNdAmRO9ISi35g2pMsNnbcp2yOq0gie9sBrbeaFHkGsT+DC9QN9NdUtQiZvrQQ==",
+  "success": true,
+  "projectFilePath": "/home/jesper/code/freezerOrganizer/src/freezerOrganizer/freezerOrganizer.csproj",
+  "expectedPackageFiles": [
+    "/home/jesper/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.0/microsoft.aspnetcore.app.ref.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

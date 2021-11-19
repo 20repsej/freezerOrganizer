@@ -1,0 +1,29 @@
+﻿@page "/addMeal"
+
+<PageTitle>Add Meal</PageTitle>
+
+<h3>AddMeal</h3>
+
+<ul>
+    @foreach (var meal in meals)
+    {
+            <li>@meal.Title</li>
+    }
+</ul>
+
+<input placeholder="Some meal" @bind="newMeal" />
+<button @onclick="AddMealToList">Add meal</button>
+
+@code {
+    private string? newMeal;
+    private List<FreezerItem> meals = new();
+
+    private void AddMealToList()
+    {
+        if (!string.IsNullOrWhiteSpace(newMeal))
+        {
+            meals.Add(new FreezerItem { Title = newMeal});
+            newMeal = string.Empty;
+        }
+    }
+}
