@@ -2,11 +2,17 @@
 
 ## AddMeal
 ### Variables
+
 Title	string
+
 Descripttion string
+
 Date	Date
+
 CompleteMeal	bool
+
 Alive	bool
+
 Size	var
 
 ### Standard meals
