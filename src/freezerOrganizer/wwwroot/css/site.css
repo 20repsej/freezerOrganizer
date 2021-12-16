@@ -109,6 +109,11 @@ a, .btn-link {
 #mealList{
 }
 
+#mealListList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #mealInList{
     border: #ECB365 2px solid;
     background-color: #04293A;
