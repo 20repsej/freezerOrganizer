@@ -7,6 +7,8 @@
 
 main[b-u935018za4] {
     flex: 1;
+    background-color: #041C32;
+    color: #ECB365;
 }
 
 .sidebar[b-u935018za4] {
@@ -69,6 +71,7 @@ main[b-u935018za4] {
         padding-right: 1.5rem !important;
     }
 }
+
 /* _content/freezerOrganizer/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-1c4vgem836] {
     background-color: rgba(255, 255, 255, 0.1);

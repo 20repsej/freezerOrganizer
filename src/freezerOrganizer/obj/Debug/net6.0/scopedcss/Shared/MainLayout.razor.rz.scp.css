@@ -6,6 +6,8 @@
 
 main[b-u935018za4] {
     flex: 1;
+    background-color: #041C32;
+    color: #ECB365;
 }
 
 .sidebar[b-u935018za4] {
@@ -68,3 +70,4 @@ main[b-u935018za4] {
         padding-right: 1.5rem !important;
     }
 }
+

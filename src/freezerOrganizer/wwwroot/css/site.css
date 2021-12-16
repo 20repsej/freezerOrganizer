@@ -62,3 +62,58 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+#mealPage{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#addMeal{
+
+}
+
+.inputField{
+    background-color: #064663;
+    color: #ECB365;
+    font-size: 1.2em;
+    margin: 0.5em;
+    margin-left: 0;
+    border: #ECB365 2px solid;
+    border-radius: 0.3em;
+}
+
+#buttonSettings{
+    border: #ECB365 2px solid;
+    padding: 0.4em;
+    border-radius: 0.5em;
+}
+
+#addMealButton{
+    color: #ECB365;
+    background-color: #064663;
+    border: #ECB365 0.3em solid;
+    border-radius: 1em;
+    font-size: 1.3em;
+    margin: 1em;
+    margin-left: 0;
+    width: 10vw;
+    box-shadow: 0 4px 15px 0 black;
+    transition: all .2s ease-in-out;
+}
+#addMealButton:hover{
+    transition: all .2s ease-in-out;
+    box-shadow: 0 6px 19px 0 #064663;
+}
+
+#mealList{
+}
+
+#mealInList{
+    border: #ECB365 2px solid;
+    background-color: #04293A;
+    margin: 0.5em;
+    padding: 1em;
+    list-style: none;
+    border-radius: 1em;
+}

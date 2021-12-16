@@ -1,29 +1,58 @@
 ﻿@page "/addMeal"
 
-<PageTitle>Add Meal</PageTitle>
+<PageTitle>freezerOrganizer</PageTitle>
+<div id="mealPage">
+<div id="addMeal">
+<h3>Add Meal</h3>
+<input class="inputField" placeholder="Meal" @bind="newMeal" /><br>
+<input class="inputField" placeholder="Description" @bind="newDescription" /><br>
+<input class="inputField" type="date" @bind="newDate" format-value="yyyy-MM-dd" />
+<br>
+<div id="buttonSettings">
+<input type="radio" name="size" value="small">
+<label for="small">Small</label><br>
+<input type="radio" name="size" value="medium">
+<label for="medium">medium</label><br>
+<input type="radio" name="size" value="large">
+<label for="large">Large</label><br>
 
-<h3>AddMeal</h3>
+<input type="checkbox" name="compMeal" @bind="newCompleteMeal" />
+<label for="compMeal">Complete meal</label><br>
+</div>
 
+<button id="addMealButton" @onclick="AddMealToList">Add meal</button>
+</div>
+<div id="mealList">
+<h3>Meals</h3>
 <ul>
     @foreach (var meal in meals)
     {
-            <li>@meal.Title</li>
+            <li id="mealInList">
+                <h4>@meal.Title</h4>
+                @meal.Description <br>
+                Size: Date: @meal.Date
+            </li>
     }
 </ul>
-
-<input placeholder="Some meal" @bind="newMeal" />
-<button @onclick="AddMealToList">Add meal</button>
+</div>
+</div>
 
 @code {
     private string? newMeal;
-    private List<FreezerItem> meals = new();
+    private string? newDescription;
+    private string? newSize;
+    private bool newCompleteMeal;
+    private bool newAlive;
+    private DateTime newDate = DateTime.Now;
+    private List<MealItem> meals = new();
 
     private void AddMealToList()
     {
         if (!string.IsNullOrWhiteSpace(newMeal))
         {
-            meals.Add(new FreezerItem { Title = newMeal});
+            meals.Add(new MealItem { Title = newMeal, Description = newDescription, Date = newDate});
             newMeal = string.Empty;
+            newDescription = string.Empty;
         }
     }
 }
