@@ -6,4 +6,5 @@ public class MealItem
     public string? Description { get; set; }
     public bool completeMeal { get; set; }
     public string? MealSize { get; set; }
+    public int MealId { get; set; }
 }

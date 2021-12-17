@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1367066731,
+        "Kind": "Components.Component",
+        "Name": "freezerOrganizer.Pages.Counter",
+        "AssemblyName": "freezerOrganizer",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "freezerOrganizer.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -236594145,
+        "Kind": "Components.Component",
+        "Name": "freezerOrganizer.Pages.Counter",
+        "AssemblyName": "freezerOrganizer",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "freezerOrganizer.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "freezerOrganizer.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 2012770664,
         "Kind": "Components.Component",
         "Name": "freezerOrganizer.Pages.FetchData",
@@ -74,39 +107,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "freezerOrganizer.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1367066731,
-        "Kind": "Components.Component",
-        "Name": "freezerOrganizer.Pages.Counter",
-        "AssemblyName": "freezerOrganizer",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "freezerOrganizer.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -236594145,
-        "Kind": "Components.Component",
-        "Name": "freezerOrganizer.Pages.Counter",
-        "AssemblyName": "freezerOrganizer",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "freezerOrganizer.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "freezerOrganizer.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

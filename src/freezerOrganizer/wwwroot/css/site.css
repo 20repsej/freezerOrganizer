@@ -81,12 +81,14 @@ a, .btn-link {
     margin-left: 0;
     border: #ECB365 2px solid;
     border-radius: 0.3em;
+    box-shadow: 0 3px 12px 0 black;
 }
 
 #buttonSettings{
     border: #ECB365 2px solid;
     padding: 0.4em;
     border-radius: 0.5em;
+    box-shadow: 0 3px 12px 0 black;
 }
 
 #addMealButton{
@@ -105,7 +107,6 @@ a, .btn-link {
     transition: all .2s ease-in-out;
     box-shadow: 0 6px 19px 0 #064663;
 }
-
 #mealList{
 }
 
@@ -115,10 +116,13 @@ a, .btn-link {
 }
 
 #mealInList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     border: #ECB365 2px solid;
     background-color: #04293A;
     margin: 0.5em;
     padding: 1em;
     list-style: none;
     border-radius: 1em;
+    box-shadow: 0 4px 15px 0 black;
 }
