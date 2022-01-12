@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace freezerOrganizer.Pages;
 
-[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = tr
 [IgnoreAntiforgeryToken]
 public class ErrorModel : PageModel
 {
@@ -24,3 +24,4 @@ public class ErrorModel : PageModel
         RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
     }
 }
+
